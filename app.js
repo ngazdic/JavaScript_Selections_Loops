@@ -4,10 +4,9 @@ console.log('Hello World!\n==========\n');
 console.log('EXERCISE 1:\n==========\n');
 
 for (let i = 0; i <= 100; i++) {
-    if (i%2 == 0) {
-        console.log(i);
-    }
-
+	if (i % 2 == 0) {
+		console.log(i);
+	}
 }
 
 // Exercise 2 Section
@@ -22,5 +21,16 @@ for (let i = 0; i <= 100; i++) {
 		console.log('FIZZBUZZ');
 	} else {
 		console.log(i);
+	}
+}
+
+// Exercise 4 Section
+
+let value = Math.round(Math.random() * 500);
+for (let i = 0; i < 500; i++) {
+	if (i == value) {
+		console.log('Found Value');
+	} else {
+		console.log('Did not find value');
 	}
 }
